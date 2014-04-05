@@ -1,4 +1,4 @@
-package twitter;
+package tcc.twitter.main;
 
 import twitter4j.FilterQuery;
 import twitter4j.StallWarning;

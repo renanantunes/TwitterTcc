@@ -1,7 +1,7 @@
 package tcc.twitter.main;
 
 public class MainApplication {
-	public static void main(String args[]) throws Exception{
+	public static void maint(String args[]) throws Exception{
 	    // The factory instance is re-useable and thread safe.
 	    Twitter twitter = TwitterFactory.getSingleton();
 	    twitter.setOAuthConsumer("mpbw8VzN1xBO4Gefd0GSpg", "ehQnNojt7FUHLVQuGKmBlHDgo75z33ySKDEU8U");
