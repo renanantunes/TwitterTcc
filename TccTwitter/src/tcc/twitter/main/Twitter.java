@@ -76,8 +76,10 @@ public class Twitter
         FilterQuery fq = new FilterQuery();
     
         String keywords[] = {"dota", "IBM", "Microsoft", "Apple", "Iphone", "Ipad"};
+        String language[] = {"en", "pt"};
 
         fq.track(keywords);
+        fq.language(language);
 
         twitterStream.addListener(listener);
         twitterStream.filter(fq);
