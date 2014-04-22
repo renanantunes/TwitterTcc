@@ -1,5 +1,8 @@
 package tcc.twitter.main;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import twitter4j.FilterQuery;
 import twitter4j.StallWarning;
 import twitter4j.Status;
@@ -57,7 +60,15 @@ public class Twitter
                 System.out.println(tweetId);
                 String content = status.getText();
                 System.out.println(content +"\n");
-
+                String language = status.getLang();
+                
+                Map<String, String> tweet = new HashMap<String, String>();
+                tweet.put("User", username);
+                tweet.put("location", profileLocation);
+                tweet.put("tweet", content);
+                tweet.put("language", language);
+                
+                long key = status.getId();
             }
 
             @Override
