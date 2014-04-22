@@ -71,7 +71,6 @@ public class Dao
         while(keys.hasNext())
         {
         	Key key = keys.next();
-//        	System.out.println(key.toString());
         	ValueVersion vv = store.get(key);
             System.out.println(key.toString() + " " + new String(vv.getValue().getValue()));
         }
