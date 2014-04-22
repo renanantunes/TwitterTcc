@@ -3,6 +3,7 @@ package tcc.twitter.main;
 import java.util.HashMap;
 import java.util.Map;
 
+import tcc.twitter.db.Dao;
 import twitter4j.FilterQuery;
 import twitter4j.StallWarning;
 import twitter4j.Status;
@@ -17,6 +18,7 @@ public class Twitter
 {
 	public static void main(String[] args) 
 	{
+		final Dao db = new Dao();
 		ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
         cb.setOAuthConsumerKey("mpbw8VzN1xBO4Gefd0GSpg");
@@ -68,7 +70,10 @@ public class Twitter
                 tweet.put("tweet", content);
                 tweet.put("language", language);
                 
-                long key = status.getId();
+                long id = status.getId();
+                String key = String.valueOf(id);
+                
+                db.put(key, tweet);
             }
 
             @Override
@@ -94,5 +99,7 @@ public class Twitter
 
         twitterStream.addListener(listener);
         twitterStream.filter(fq);
+        db.printAll();
+        db.close();
 	}
 }

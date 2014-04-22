@@ -2,7 +2,26 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="D:/Java/TwitterTcc/twitter4j-core-4.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/Java/TwitterTcc/twitter4j-stream-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Twitter Framework/twitter4j-core-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Twitter Framework/twitter4j-stream-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/avro.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jackson-core-asl.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jackson-mapper-asl.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/je.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-continuation.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-http.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-io.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-security.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-server.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-servlet.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-util.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-webapp.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jetty-xml.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/jline.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/kvcli.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/kvclient.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/kvstore.jar"/>
+	<classpathentry kind="lib" path="D:/Java/TwitterTcc/Lib/Oracle noSql/servlet-api.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
